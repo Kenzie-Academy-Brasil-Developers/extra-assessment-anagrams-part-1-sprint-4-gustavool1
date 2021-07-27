@@ -18,9 +18,11 @@ btn.addEventListener("click", function(){
     let res = getAnagramsOf(txt).join(", ")
     if(res === ""){
         res = 'Anagrama não encontrado'
-        p.style.color = 'red'
     }
     p.innerHTML = res
+    if(p.innerHTML === ""){
+        p.style.color = 'red'
+    }
     resContent.appendChild(p)
 })
 
