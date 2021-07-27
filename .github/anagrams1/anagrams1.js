@@ -16,7 +16,10 @@ btn.addEventListener("click", function(){
     let resContent = document.getElementById("resContent")
     let txt = document.getElementById("input").value
     let res = getAnagramsOf(txt).join(", ")
-    
+    if(res === ""){
+        res = 'Anagrama não encontrado'
+        p.style.color = 'red'
+    }
     p.innerHTML = res
     resContent.appendChild(p)
 })
