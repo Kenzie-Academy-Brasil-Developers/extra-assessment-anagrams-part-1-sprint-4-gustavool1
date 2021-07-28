@@ -24,7 +24,8 @@ input{
     outline: 0;
 } 
 button{
-    margin-top: 20px;
+    font-size: 25px;
+    margin-top: 120px;
     border: none;
     color: white;
     background-color:#657e88 ;
@@ -34,7 +35,7 @@ button{
     border-radius: 5px;
 }
 button:hover{
-    font-size: 15px;
+    font-size: 26px;
 }
 
 
@@ -43,4 +44,11 @@ button:hover{
         
         justify-content: flex-start;
     }    
+
+    button{
+        font-size: 20px;
+    }
+    button:hover{
+        font-size: 22px;
+    }
 }   
