@@ -37,28 +37,10 @@ button:hover{
     font-size: 15px;
 }
 
-@media screen and (min-width:300px) and (max-width:700px){
-    input{
-        margin-top: 70px;
-        font-size: 20px;   
-        width: 200px;
-        border-radius: 2px;
-    }
-    button{
-        margin-top: 100px;
-        width: 300px;
-        font-size: 25px;
+
+@media screen and (min-width:700px) {
+    div{
         
-        color: white;
-        background-color:#657e88 ;
-       
-    }
-    button:hover{
-        font-size: 27px;
-        padding: 13px;
-    }
-    section{
-        margin-top: 50px;
-    }
-    
-}
+        justify-content: flex-start;
+    }    
+}   
